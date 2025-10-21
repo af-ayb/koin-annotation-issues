@@ -68,8 +68,6 @@ dependencies {
     // Kotlinx Serialization
     implementation(libs.kotlinx.serialization.json)
 
-    implementation(projects.androidApp.ui.core)
-
     // There is no transitive dependency to data modules, so they must be added here for injection
     // UI --> Domain <-- Data
     implementation(projects.shared.home.data.implementation)

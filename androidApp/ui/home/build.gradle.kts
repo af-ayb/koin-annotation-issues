@@ -34,6 +34,12 @@ dependencies {
     implementation(libs.jetpack.compose.preview)
     implementation(libs.jetpack.compose.tooling)
     implementation(platform(libs.jetpack.compose.bom))
+    api(libs.jetpack.compose.ui)
+    api(libs.jetpack.compose.material3)
+    api(libs.jetpack.compose.util)
+    api(libs.androidx.navigation.compose)
+    api(libs.androidx.lifecycle.runtime.compose)
+    api(libs.androidx.lifecycle.viewmodel.compose)
 
     // koin
     implementation(platform(libs.koin.annotations.bom))
@@ -46,6 +52,5 @@ dependencies {
     // Kotlinx Serialization
     implementation(libs.kotlinx.serialization.json)
 
-    implementation(projects.androidApp.ui.core)
     implementation(projects.shared.home.usecase)
 }

@@ -30,7 +30,6 @@ dependencyResolutionManagement {
 
 include(":shared")
 include(":androidApp:app")
-include(":androidApp:ui:core")
 include(":androidApp:ui:home")
 include(":shared:home:abstraction")
 include(":shared:home:entity")
