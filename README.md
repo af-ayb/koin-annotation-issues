@@ -19,7 +19,7 @@ Data
 ### Module Setup and Dependencies
 
 ```
-[app] (android)
+[app] 
   |--> [presentation] (ViewModel) ----v
   |                                         [domain] (Repo-interfaces)    
   |--> [data] (Repo-impls) ------------^
@@ -60,6 +60,8 @@ In this project, AppModule should include modules from other Gradle modules:
 This is done to consolidate the dependency graph and enable a single, reliable compile-time check of the entire application.
 
 However, if these includes are added, the build fails with:
+
+(Uncomment the `includes` in `AppModule` to reproduce)
 
 ```
 [ksp] java.lang.IllegalStateException: can't find module metadata for 'example.koin.annotations.home.data.source.GreetingsDataSourceModule'
