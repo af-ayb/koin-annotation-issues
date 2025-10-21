@@ -76,7 +76,7 @@ This happens even though the KSP-generated module metadata files are present (bo
 
 This looks related to [InsertKoinIO/koin#2163](https://github.com/InsertKoinIO/koin/issues/2163) but occurs with current KSP/Koin annotation setup in a multi-module project.
 
-The issue persists with the latest version 2.2.0.
+The issue persists with the latest version 2.3.0.
 
 **Why config check is only in the app module:**
 
