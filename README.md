@@ -1,6 +1,6 @@
 # Koin Annotations Example - Kotlin Multiplatform Project
 
-A Kotlin Multiplatform (KMP) project demonstrating **Clean Architecture** with **Koin Dependency Injection** using **Koin Annotations** and **KSP (Kotlin Symbol Processing)**.
+A Kotlin Multiplatform (KMP) project (native android + iOS UI, not CMP) demonstrating **Clean Architecture** with **Koin Dependency Injection** using **Koin Annotations** and **KSP (Kotlin Symbol Processing)**.
 
 ## Architecture Overview
 
